@@ -1,5 +1,12 @@
 This is a Kotlin Multiplatform project targeting Android, Desktop (JVM).
 
+
+Em português:
+Se você quiser instalar na sua máquina como desktop
+vá na sessão do github de releases e instale o Java 25 e o VCL (indique o path no bat(windows) ou no sh(linux))
+execute o arquivo de seu sistema operacional para executar a aplicação desktop.
+Quando a aplicação android você tem que baixar o projeto inteiro e gere a apk para sua versão do android
+
 * [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
   It contains several subfolders:
     - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
